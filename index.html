@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deil Aries Santos | IT Support & Systems Enthusiast</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">DS</div>
+    <ul class="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <i class="fas fa-moon"></i>
+    </button>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg-dots"></div>
+    <div class="hero-content">
+      <span class="badge">IT Support &amp; Systems Enthusiast</span>
+      <h1>Hi, I'm<br /><span class="name-white">Deil Aries</span><br /><span class="name-purple">Santos</span></h1>
+      <p class="hero-sub">Computer Science graduate with experience in IT support, system administration, and troubleshooting. Passionate about solving problems and delivering efficient IT solutions.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+        <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline">View Resume <i class="fas fa-eye"></i></a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <div class="photo-ring">
+        <img src="profile.jpg" alt="Deil Aries Santos" onerror="this.style.display='none'; this.parentElement.classList.add('no-photo')" />
+        <div class="photo-placeholder"><i class="fas fa-user"></i></div>
+      </div>
+      <div class="floating-icon icon-code"><i class="fas fa-code"></i></div>
+      <div class="floating-icon icon-monitor"><i class="fas fa-desktop"></i></div>
+      <div class="floating-icon icon-user"><i class="fas fa-user-shield"></i></div>
+      <div class="floating-icon icon-gear"><i class="fas fa-cog"></i></div>
+    </div>
+    <div class="scroll-hint">
+      <div class="scroll-mouse"></div>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about-section">
+    <div class="container about-grid">
+      <div class="about-text">
+        <span class="eyebrow">Get to Know Me</span>
+        <h2>About Me</h2>
+        <p>I am a Computer Science graduate with a strong foundation in IT support, system administration, and troubleshooting. I have hands-on experience in maintaining computer systems, managing user accounts, and supporting network operations in corporate environments.</p>
+        <p>I am eager to contribute my technical skills and problem-solving abilities to help organizations achieve smooth and efficient IT operations.</p>
+        <a href="resume.pdf" download class="btn btn-primary">Download Resume <i class="fas fa-download"></i></a>
+        <div class="about-info">
+          <div class="info-item"><i class="fas fa-map-marker-alt"></i><div><span>Location</span><strong>Bulacan, Philippines</strong></div></div>
+          <div class="info-item"><i class="fas fa-phone"></i><div><span>Phone</span><strong>+63 968 249 2564</strong></div></div>
+          <div class="info-item"><i class="fas fa-envelope"></i><div><span>Email</span><strong>deilariess0@gmail.com</strong></div></div>
+          <div class="info-item"><i class="fab fa-linkedin"></i><div><span>LinkedIn</span><strong><a href="https://www.linkedin.com/in/deil-aries-santos-551a7b315/" target="_blank">View Profile</a></strong></div></div>
+        </div>
+      </div>
+      <div class="about-illustration">
+        <div class="illustration-box">
+          <i class="fas fa-laptop-code"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <span class="eyebrow">What I Do Best</span>
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card" data-pct="90">
+          <div class="skill-icon"><i class="fas fa-server"></i></div>
+          <div class="skill-info">
+            <span>System Administration</span>
+            <div class="skill-bar"><div class="skill-fill" style="--pct:90%"></div></div>
+            <span class="pct-label">90%</span>
+          </div>
+        </div>
+        <div class="skill-card" data-pct="90">
+          <div class="skill-icon"><i class="fas fa-tools"></i></div>
+          <div class="skill-info">
+            <span>Troubleshooting (SW & HW)</span>
+            <div class="skill-bar"><div class="skill-fill" style="--pct:90%"></div></div>
+            <span class="pct-label">90%</span>
+          </div>
+        </div>
+        <div class="skill-card" data-pct="85">
+          <div class="skill-icon"><i class="fas fa-download"></i></div>
+          <div class="skill-info">
+            <span>Software Installation & Configuration</span>
+            <div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div>
+            <span class="pct-label">85%</span>
+          </div>
+        </div>
+        <div class="skill-card" data-pct="80">
+          <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+          <div class="skill-info">
+            <span>Networking Troubleshooting</span>
+            <div class="skill-bar"><div class="skill-fill" style="--pct:80%"></div></div>
+            <span class="pct-label">80%</span>
+          </div>
+        </div>
+        <div class="skill-card" data-pct="85">
+          <div class="skill-icon"><i class="fas fa-users-cog"></i></div>
+          <div class="skill-info">
+            <span>User Account Management</span>
+            <div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div>
+            <span class="pct-label">85%</span>
+          </div>
+        </div>
+        <div class="skill-card" data-pct="90">
+          <div class="skill-icon"><i class="fas fa-handshake"></i></div>
+          <div class="skill-info">
+            <span>Team Collaboration</span>
+            <div class="skill-bar"><div class="skill-fill" style="--pct:90%"></div></div>
+            <span class="pct-label">90%</span>
+          </div>
+        </div>
+        <div class="skill-card" data-pct="85">
+          <div class="skill-icon"><i class="fas fa-search"></i></div>
+          <div class="skill-info">
+            <span>Problem Analysis</span>
+            <div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div>
+            <span class="pct-label">85%</span>
+          </div>
+        </div>
+        <div class="skill-card" data-pct="90">
+          <div class="skill-icon"><i class="fas fa-eye"></i></div>
+          <div class="skill-info">
+            <span>Attention to Detail</span>
+            <div class="skill-bar"><div class="skill-fill" style="--pct:90%"></div></div>
+            <span class="pct-label">90%</span>
+          </div>
+        </div>
+        <div class="skill-card" data-pct="85">
+          <div class="skill-icon"><i class="fas fa-sync-alt"></i></div>
+          <div class="skill-info">
+            <span>Adaptability</span>
+            <div class="skill-bar"><div class="skill-fill" style="--pct:85%"></div></div>
+            <span class="pct-label">85%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section experience-section">
+    <div class="container">
+      <span class="eyebrow">My Journey</span>
+      <h2>Professional Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="job-header">
+              <div class="company-logo be-logo">BE</div>
+              <div>
+                <span class="job-role">IT Administrator</span>
+                <h3>Bucket Economics</h3>
+                <span class="job-date">Jan 2025 – May 2026</span>
+              </div>
+            </div>
+            <ul>
+              <li>Participated in software testing, debugging, and troubleshooting activities to identify and resolve technical issues.</li>
+              <li>Collaborated with team members to support system functionality and improve operational efficiency.</li>
+              <li>Assisted in maintaining software quality and documenting issues to ensure reliable system performance.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="job-header">
+              <div class="company-logo dmci-logo">DMCI</div>
+              <div>
+                <span class="job-role">IT Intern</span>
+                <h3>DMCI Project Developers Inc.</h3>
+                <span class="job-date">Mar 2025 – May 2025</span>
+              </div>
+            </div>
+            <ul>
+              <li>Assisted IT staff with troubleshooting of hardware, software, and network-related issues.</li>
+              <li>Configured and managed user accounts, system settings, and routine maintenance tasks.</li>
+              <li>Collaborated with the IT team to support office technology and operations.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <span class="eyebrow">Featured Work</span>
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-img">
+            <div class="project-img-placeholder"><i class="fas fa-laptop"></i></div>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Thesis Project</span>
+            <h3>Online Service Request for Clean Genie Cleaning Corp.</h3>
+            <p>A web-based system that allows customers to submit cleaning service requests online. The system manages appointments, staff assignments, and service records efficiently.</p>
+            <div class="tech-tags">
+              <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>HTML</span><span>CSS</span>
+            </div>
+            <a href="#" class="btn btn-primary btn-sm">View Project <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section certs-section">
+    <div class="container">
+      <span class="eyebrow">My Credentials</span>
+      <h2>Certifications</h2>
+      <div class="certs-grid">
+        <div class="cert-card">
+          <div class="cert-logo oracle-logo">ORACLE<br/><small>Academy</small></div>
+          <div class="cert-info">
+            <span class="cert-org">Java Foundations</span>
+            <h3>Awarded by Oracle Academy</h3>
+            <p>Date: June 25, 2022</p>
+            <p>Instructor: Beronisa Peñar</p>
+          </div>
+          <div class="cert-badge"><i class="fas fa-medal"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <span class="eyebrow">Set in Touch</span>
+        <h2>Let's Connect!</h2>
+        <p>I am open to new opportunities and collaborations. Feel free to reach out!</p>
+        <div class="contact-details">
+          <div class="contact-item"><i class="fas fa-phone"></i><span>+63 968 249 2564</span></div>
+          <div class="contact-item"><i class="fas fa-envelope"></i><span>deilariess0@gmail.com</span></div>
+          <div class="contact-item"><i class="fas fa-map-marker-alt"></i><span>Francisco Homes Narra, San Jose Del Monte, Bulacan, 3023</span></div>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo">DS</div>
+        <p><strong>Deil Aries Santos</strong></p>
+        <p class="footer-tagline">IT Support | System Administration | Problem Solver</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/deil-aries-santos-551a7b315/" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/deilariess0" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="deilariess0@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Other Links</h4>
+        <ul>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-connect">
+        <h4>Let's Connect</h4>
+        <div class="contact-item"><i class="fas fa-phone"></i><span>+63 968 249 2564</span></div>
+        <div class="contact-item"><i class="fas fa-envelope"></i><span>deilariess0@gmail.com</span></div>
+        <div class="contact-item"><i class="fas fa-map-marker-alt"></i><span>Bulacan, Philippines</span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Deil Aries Santos. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a href="#home" class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></a>
+
+  <script src="script.js"></script>
+</body>
+</html>
