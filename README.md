@@ -1,100 +1,66 @@
-# Deil Aries Santos — Portfolio Website
+🔒 Deil Aries Santos — Data Security Portfolio
 
-A personal IT portfolio website built with HTML, CSS, and JavaScript.
+Welcome to my personal portfolio website! This portfolio showcases my background, technical skills, projects, certifications, and experience as a Computer Science graduate with a strong interest in IT Support, System Administration, and Data Security.
 
-## 📁 Files
-- `index.html` — Main page
-- `style.css` — All styles
-- `script.js` — Interactivity (theme toggle, scroll effects, form)
-- `profile.jpg` — **Add your photo here** (name it exactly `profile.jpg`)
-- `resume.pdf` — **Add your resume here** (name it exactly `resume.pdf`)
+👨‍💻 About Me
 
----
+I am Deil Aries Santos, a Bachelor of Science in Computer Science graduate from STI College Fairview. I have hands-on experience in IT support, system administration, troubleshooting, and technical assistance through my internship and personal projects.
 
-## 🚀 How to Deploy on GitHub Pages
+I am passionate about protecting digital systems, solving technical problems, and continuously expanding my knowledge in cybersecurity and information security. My goal is to build secure, reliable, and efficient IT environments while growing into a cybersecurity professional.
 
-### Step 1 — Create a GitHub Account
-Go to https://github.com and sign up (if you don't have an account).
+🎯 Career Objective
 
-### Step 2 — Create a New Repository
-1. Click the **+** icon → **New repository**
-2. Name it: `portfolio` (or `yourusername.github.io` for a cleaner URL)
-3. Set it to **Public**
-4. Click **Create repository**
+To begin my career in IT Support, System Administration, or Data Security, where I can apply my technical knowledge, strengthen my cybersecurity skills, and contribute to protecting organizational systems and information.
 
-### Step 3 — Upload Your Files
-**Option A — Upload via browser (easiest):**
-1. Inside your new repo, click **Add file** → **Upload files**
-2. Drag and drop all files: `index.html`, `style.css`, `script.js`, `profile.jpg`, `resume.pdf`
-3. Click **Commit changes**
+🛠️ Technical Skills
+IT Support & Technical Troubleshooting
+Windows Administration
+Basic Linux Administration
+Network Fundamentals
+Data Security Fundamentals
+System Administration
+Hardware & Software Installation
+HTML, CSS & JavaScript
+Git & GitHub
+Microsoft Office 365
+🚀 Portfolio Features
+Responsive modern design
+Dark & Light mode
+About Me section
+Technical Skills
+Featured Projects
+Experience
+Certifications
+Downloadable Resume
+Contact Information
+📂 Technologies Used
+HTML5
+CSS3
+JavaScript
+Git
+GitHub
+Visual Studio Code
+📌 Future Goals
 
-**Option B — Using Git (recommended):**
-```bash
-git init
-git add .
-git commit -m "Initial portfolio commit"
-git branch -M main
-git remote add origin https://github.com/YOURUSERNAME/portfolio.git
-git push -u origin main
-```
+I am currently expanding my knowledge in:
 
-### Step 4 — Enable GitHub Pages
-1. Go to your repo → **Settings** → **Pages** (left sidebar)
-2. Under **Branch**, select `main` → folder `/root`
-3. Click **Save**
-4. Wait ~1 minute, then visit: `https://yourusername.github.io/portfolio`
+Cybersecurity
+Ethical Hacking
+Security Operations Center (SOC)
+Cloud Security
+Network Security
+Digital Forensics
+AI-powered Security Tools
+📬 Contact
 
----
+Name: Deil Aries Santos
 
-## ⚡ How to Deploy on Vercel (even better)
+Email: deilariessantos@gmail.com
 
-Vercel gives you a faster, professional URL like `yourname.vercel.app`.
+Location: Bulacan, Philippines
 
-### Step 1 — Push to GitHub first (follow steps above)
+📄 License
 
-### Step 2 — Connect to Vercel
-1. Go to https://vercel.com and click **Sign Up with GitHub**
-2. Click **Add New Project**
-3. Find your `portfolio` repo and click **Import**
-4. Leave all settings as default (Framework: Other)
-5. Click **Deploy**
+This portfolio is for personal and professional use. Feel free to explore the source code for learning purposes, but please do not copy or redistribute the content without permission.
 
-### Step 3 — Get your live URL
-After ~30 seconds, Vercel gives you a URL like:
-`https://portfolio-deilaries.vercel.app`
-
-### Step 4 — Custom Domain (optional)
-In Vercel → your project → **Settings** → **Domains**
-Add your own domain (e.g., `deilaries.com`) if you have one.
-
----
-
-## 📸 Adding Your Photo & Resume
-
-1. **Profile photo:** Save your photo as `profile.jpg` and put it in the same folder as `index.html`
-2. **Resume:** Save your resume as `resume.pdf` in the same folder
-
-Then re-upload/push to GitHub and Vercel will auto-update.
-
----
-
-## ✏️ How to Edit Content
-
-All text content is in `index.html`. Search for these to update:
-- `Deil Aries Santos` — Your name
-- `deilariessantos@gmail.com` — Your email
-- `+63 968 249 2564` — Your phone
-- Skills percentages → look for `style="--pct:90%"` and change the number
-- Experience → find `Bucket Economics` and `DMCI` sections
-- Projects → find `project-card` sections
-
----
-
-## 🎨 Changing Colors
-
-In `style.css`, find the `:root` block at the top:
-```css
---purple: #7c5cbf;        /* Main accent color */
---purple-light: #9b79e0;  /* Lighter accent */
-```
-Change these hex values to any color you like!
+⭐ Thank you for visiting my portfolio! I am always open to new opportunities, collaborations, and continuous learning in the fields of IT Support, System Administration, and Data Security.
